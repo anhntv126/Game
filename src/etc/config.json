@@ -1,0 +1,187 @@
+{
+  "initialSceneId": "step0",
+  "scenes": [
+    {
+      "id": "step0",
+      "title": "Step 0",
+      "image": "./step0.jpg",
+      "hitzones": [
+        {
+          "goto": "step1",
+          "location": {
+            "top": "65",
+            "left": "21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step1",
+      "title": "Step 1",
+      "image": "./step1.jpg",
+      "hitzones": [
+        {
+          "goto": "step2",
+          "location": {
+            "top": "65",
+            "left": "26"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step2",
+      "title": "Step 2",
+      "image": "./step2.jpg",
+      "hitzones": [
+        {
+          "goto": "step3",
+          "location": {
+            "top": "65",
+            "left": "15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step3",
+      "title": "Step 3",
+      "image": "./step3.jpg",
+      "hitzones": [
+        {
+          "goto": "step4",
+          "location": {
+            "top": "65",
+            "left": "25"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step4",
+      "title": "Step 4",
+      "image": "./step4.jpg",
+      "hitzones": [
+        {
+          "goto": "step5",
+          "location": {
+            "top": "65",
+            "left": "20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step5",
+      "title": "Step 5",
+      "image": "./step5.jpg",
+      "hitzones": [
+        {
+          "goto": "step4",
+          "location": {
+            "top": "65",
+            "left": "12"
+          }
+        },
+        {
+          "goto": "step6",
+          "location": {
+            "top": "65",
+            "left": "44"
+          }
+        },
+        {
+          "goto": "step7",
+          "location": {
+            "top": "65",
+            "left": "73"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step6",
+      "title": "Step 6",
+      "image": "./step6.jpg",
+      "hitzones": [
+        {
+          "goto": "step5",
+          "location": {
+            "top": "65",
+            "left": "18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step7",
+      "title": "Step 7",
+      "image": "./step7.jpg",
+      "hitzones": [
+        {
+          "goto": "step5",
+          "location": {
+            "top": "65",
+            "left": "29"
+          }
+        },
+        {
+          "goto": "step8",
+          "location": {
+            "top": "65",
+            "left": "67"
+          }
+        },
+        {
+          "goto": "step9",
+          "location": {
+            "top": "65",
+            "left": "88"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step8",
+      "title": "Step 8",
+      "image": "./step8.jpg",
+      "hitzones": [
+        {
+          "goto": "step9",
+          "location": {
+            "top": "67",
+            "left": "7"
+          }
+        },
+        {
+          "goto": "step7",
+          "location": {
+            "top": "65",
+            "left": "43"
+          }
+        }
+      ]
+    },
+    {
+      "id": "step9",
+      "title": "Step 9",
+      "image": "./step9.jpg",
+      "hitzones": [
+        {
+          "goto": "step8",
+          "location": {
+            "top": "65",
+            "left": "28"
+          }
+        },
+        {
+          "goto": "step7",
+          "location": {
+            "top": "65",
+            "left": "46"
+          }
+        }
+      ]
+    }
+  ]
+}
